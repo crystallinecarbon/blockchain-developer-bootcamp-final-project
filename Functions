@@ -1,0 +1,32 @@
+1. Users will register themselves on the gallery contract
+
+function registerOwner(address _owner) {
+
+	// registers owner
+
+};
+	
+2. Users will register their NFT
+
+function registerNft(address _nft) {
+
+	// registers the NFT
+
+};
+	
+3. Users can register each NFT only once.
+
+modifier onlyNftOnce() { 
+	// checks the NFT hasn't been listed before 
+	_ 
+};
+
+4. Users can see the registered NFTs.
+
+function displayNft() {
+
+  // displays registered NFTs
+  
+};
+
+
